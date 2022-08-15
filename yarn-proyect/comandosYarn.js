@@ -11,4 +11,6 @@
  * uninstall package - yarn remove 
  * 
  * update  - yarn upgrade actualiza las dependecias del package.json
+ * 
+ * run some script - yarn 
  */
