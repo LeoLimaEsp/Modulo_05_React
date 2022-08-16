@@ -37,7 +37,7 @@ class App extends React.Component {
     axios.get("https://swapi.dev/api/people").then(res => {
       const characters = res.data.results;
 
-      console.log(res);
+      // console.log(res);
 
       this.setState({
         ...this.state,
@@ -48,17 +48,16 @@ class App extends React.Component {
   }
   handleChange = e => {
  
-    //Modificamos el estado
     this.setState({
-      form: { 
-        ...this.state,
-        [e.target.name]: e.target.value
-      }
-    })
+      form: {
+        ...this.state.form,
+        [e.target.name]: e.target.value,
+      },
+    });
   }
   
   render(){
-    console.log(this.state)
+    
     return (
       <>
         <Navbar/>
