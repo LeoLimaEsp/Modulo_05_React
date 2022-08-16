@@ -12,7 +12,7 @@ class Badge extends React.Component {
           <img src={logo} alt="DevF" />
         </div>
         <div className="Badge__section-name">
-          <img src="https://www.gravatar.com/avatar?d=identicon" className="Badge__avatar" alt="Avatar" />
+          <img  src="https://www.gravatar.com/avatar?d=identicon" className="Badge__avatar" alt="Avatar" />
           <h1>
             {this.props.state.form.firstName} <br/>
             {this.props.state.form.lastName}

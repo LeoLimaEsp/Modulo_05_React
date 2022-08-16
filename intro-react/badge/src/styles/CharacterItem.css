@@ -1,5 +1,5 @@
 .CharacterCard {
-  width: 100%;
+  width: 25%;
   height: 240px;
   background: white;
   background-size: cover;
@@ -9,13 +9,24 @@
   overflow: hidden;
   margin-bottom: 1rem;
   position: relative;
+    padding: 15%;
 }
 
 .CharacterCard__name-container {
   color: white;
   position: absolute;
   bottom: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  width: 50%;
+  background-color: rgba(159, 204, 170, 0.7);
   padding: 1rem 0.5rem;
+  border-radius: 5%;
+}
+
+.container{
+  display: flex;
+    flex-wrap: wrap;
+}
+
+.CharacterCard:hover{
+  opacity: .5;
 }
