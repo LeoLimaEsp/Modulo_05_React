@@ -9,7 +9,7 @@ class Navbar extends Component {
         <div className="container-fluid">
           <a className="Navbar__brand" href="#">
             <span className="font-weight-light">DevF</span>
-            <span className="font-weight-bold">_Online</span>
+            <span className="font-weight-bold">Online</span>
           </a>
         </div>
       </div>
